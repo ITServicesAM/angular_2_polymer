@@ -65,6 +65,12 @@ cd angular2-webpack-starter
 # install the repo with npm
 npm install
 
+# install bower if not present
+npm install bower -g
+
+# install paper-elements used in the project
+bower install --save paper-elements
+
 # start the server
 npm start
 
